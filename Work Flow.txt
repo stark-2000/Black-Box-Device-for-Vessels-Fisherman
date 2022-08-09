@@ -1,0 +1,60 @@
+Things to note:
+1)Ships moving in other country's water cannot fish, spy or stop and explore.
+2)Early information or warning is welcome always.
+3)Small boats don't have both lrit and ais.
+4)Not all ships have AIS or it is sometimes switched off and in that case we dont get data - if even switched off and u get info from that ship somehow
+it is great (innovation area)
+5)Hardware unit for tracking ships and getting info - we can make hw unit  to track ships - to overcome AIS problem (range limitation & switching off prob)
+
+AIS:
+1)AIS - Automatic identification system - This system provides info abt ships like the owner name, ship name, lat & lon of ships, type of boat - fishing boat, 
+sailing boat or cruise ship. 
+2)Almost all of the registered ships have AIS but still some small fisher man boats don't have AIS.
+3)AIS shore stations are placed in certain intervals such that they cover entire coast.
+4)Indian coast gaurd is willing to share the sample AIS data for hackathon purpose.
+5)Ships in ocean beyond 40 NM cannot communicate with shore AIS stations so data abt these ships are not available.
+6)Range limitation for ais - 40 to 50 NM
+
+LRIT:
+1)These are fitted on ships for security reasons 
+2)Connected to satelite directly - sends position of ship to satelite and then satelite sends to shore stations 
+3)Used for search and rescue 
+4)Only big ships have these and small boats don't have these 
+
+
+There are 4 ways to get data: (info abt ships moving in ocean)
+
+1)Coastal radar - radars placed in nearby coast to track ships - limitation in range (it won't work beyond 12 to 15 Nautical Miles (NM))
+
+2)Satelite data about ships (like google maps) - satelite has AIS transponder - we get satelite image of ocean with ships plotted like radar in flights
+
+3)Shore AIS - These are like the ground control rooms - here range is limited, the ships directly communicate with these shore stations.
+
+4)LRIT data - might be available for bigger ships like cruise or cargo
+
+
+Our Solution:
+1)We have to develop a software program which will use both data (satelite info and shore AIS) to categorise ships as registered and unregistered.
+2)When ship very far away from shore use satelite data which is always available, when close to shore use AIS or coastal radar.
+3)Unregistered ships - those ships which are not postively identifiable - tell the security abt these unregistered ships (highlighted in red in a list of ships like excel sheet)
+4)Our solution should be Easily deployable and should be capable of running in any device.
+5)Identify targets positiviley and give list of identifieable ships with data abt where are they going, what is the ship name, what they are doing & purpose.
+6)We can make our own HW unit like AIS that can be attached to any ship for GPS tracking and getting necessary info. The HW unit cannot be switched off easily and 
+would be low cost (beneficial to fisherman). This unit would overcome the drawbacks of AIS.
+
+
+Example to better understand the solution:
+For example the satlite image shows 100 of targets or ships in Indian ocean, the satelite may provide AIS info abt 90 ships out of the total 100
+so we now have info abt 90 ships out of the total 100, so these 90 ships are categorised as registered or safe.
+We don't have proper info abt the remaining 10 ships. If the 10 ships are closer to shore we have to use the shore AIS data to get info abt that ship, if the shore AIS
+data is also not available due to the above mentioned drawbacks or the ship is not closer to the shore, we have no source to get the information abt the ship, so we 
+can categorise those ships as unregistered or can be tagged as "to be monitored". The naval ships or coast gaurd will focus on these ships alone through patrol boats 
+or intercom. 
+Apart from all this if the HW unit that we developed is installed in these ships , we can get the data abt that ship using this HW unit and then categorise 
+those ships as registered.
+
+
+
+
+
+
