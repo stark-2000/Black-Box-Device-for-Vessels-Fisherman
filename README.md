@@ -1,4 +1,4 @@
-# AIH
+# AIH - Asean India Hackathon
 ASEAN - India Hackathon  - Black Box Device
 
 Team Members:
