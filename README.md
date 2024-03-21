@@ -1,14 +1,16 @@
-# AIH - Asean India Hackathon
-ASEAN - India Hackathon  - Black Box Device
+## Overview:
+Developed a 𝘁𝗮𝗺𝗽𝗲𝗿-𝗽𝗿𝗼𝗼𝗳 𝘀𝗼𝗹𝗮𝗿-𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝗹𝗮𝗰𝗸 𝗯𝗼𝘅 device for remote 𝗼𝗰𝗲𝗮𝗻 𝘃𝗲𝘀𝘀𝗲𝗹𝘀, seamlessly logging and transmitting vital information to a 𝗰𝗼𝗮𝘀𝘁 𝗴𝘂𝗮𝗿𝗱 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗿𝗼𝗼𝗺 dashboard. Features include tamper alerts, 𝗜𝗿𝗶𝗱𝗶𝘂𝗺 𝘀𝗮𝘁𝗲𝗹𝗹𝗶𝘁𝗲 𝗰𝗼𝗺𝗺𝘂𝗻𝗶𝗰𝗮𝘁𝗶𝗼𝗻, 𝗔𝗜-𝗯𝗮𝘀𝗲𝗱 𝗮𝗰𝘁𝗶𝘃𝗶𝘁𝘆 monitoring, and 𝗲𝗻𝘃𝗶𝗿𝗼𝗻𝗺𝗲𝗻𝘁𝗮𝗹 𝘀𝗮𝗳𝗲𝘁𝘆 measures.
 
-Team Members:
-Dhinesh Rajasekaran (Team Leader), Aditya Mandil, Wei Ching, Rendy Poy, Souvanny Banchong, Tran Dong Phuong
 
-Mentors:
-Mr. Seavpor from Cambodia and Mrs.Wida from Brunei
+## Key Achievements:
+✦ 𝗧𝗮𝗺𝗽𝗲𝗿-𝗣𝗿𝗼𝗼𝗳 𝗦𝗼𝗹𝗮𝗿 𝗗𝗲𝘃𝗶𝗰𝗲:
+- Designed a compact, solar-powered black box for ocean vessels, ensuring continuous operation with onboard 𝗽𝗼𝘄𝗲𝗿 𝗯𝗮𝗰𝗸𝘂𝗽 for up to 7 hours.
 
-About:
-The finalist teams of SIH 2020 hardware edition and winners of SIH 2020 software edition were eligible to participate in this ASEAN – India Hackathon which is international level hackathon organised by AICTE Innovation Cell India in coordination with 10 other Asian countries (Indonesia, Malaysia, Philippines, Singapore, Thailand, Brunei, Laos, Myanmar, Cambodia and Vietnam). We are given problem statements common to the Asian countries and have to develop and innovate a solution for the same. We are put in a team of international students from the different countries mentioned above. Since we were one of the SIH 2020 Hardware edition finalists we were eligible for participating in this hackathon where first round was an online test about Machine Learning. The test has to be taken individually by all team members & I was selected for next round which is an interview. I got selected in the interview as well and was then allotted a problem statement in the theme blue economy and was assigned a team of 6 members. (Myself and Aditya from India, Wei Ching and Rendy from Singapore, Banchong from Laos and Phuong from Vietnam). After various training & mentoring sessions the hackathon was scheduled on Feb 1, 2 & 3 and valedictory ceremony on Feb 4. There were totally 11 problem statements and 5 teams for each problem statement. Totally around 100 students were selected from India to participate in this hackathon. Each problem statement will have its Winner and Runner up. We secured runner up position and cash prize of 1500$ and was felicitated by Prof. Anil D. Sahasrabudhe & Education minister of India.
+✦ 𝗦𝗲𝗰𝘂𝗿𝗲 𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝗰𝗮𝘁𝗶𝗼𝗻:
+- Utilized Iridium satellite communication for 𝟮𝟰/𝟳 𝘄𝗼𝗿𝗹𝗱𝘄𝗶𝗱𝗲 𝗰𝗼𝘃𝗲𝗿𝗮𝗴𝗲 and data transfer, enabling seamless transmission of essential information to the coast guard control room.
 
-Objective/tools/technologies:
-Our problem statement is “Enhancing Coastal Security”. We had to develop a system which could categorise vessels or ships moving in ocean within and beyond 12 Nautical Miles (NM) into registered (belonging to that coastal state) and unregistered (Not belonging to that respective coastal state – foreign ship). The ships have to be categorised based on their country of origin. We developed a low-cost hardware module which could track a ship’s location and send it to a digital dashboard in the coast guard control room from any remote location in the ocean. It is done using satellite communication and Mobile Adhoc Networks (MANET protocol). The hardware unit also sends other essential information like ship’s name, owner’s name, course & heading of ship, speed, IMO number, MMSI number, Distance of ship from coast, Weight & Size of ship, Temperature & Humidity and Status of ship. The module is low cost and completely solar powered and has an emergency SOS button for fisher man, Tamper detection alarm, Emergency backup power supply and provision for external power supply as well. The module can be retrofitted to any vessel starting from a larger cargo ship to a small fishing boat. A software dashboard was developed which would communicate with the hardware unit and display the data received in neat and visually attractive manner. It was developed with a simple UI and is easy to use. Live tracking of ships, satellite view & radar view of the coast is displayed in the software dashboard.
+✦ 𝗔𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗗𝗮𝘁𝗮 𝗟𝗼𝗴𝗴𝗶𝗻𝗴 𝗮𝗻𝗱 𝗠𝗼𝗻𝗶𝘁𝗼𝗿𝗶𝗻𝗴:
+- Implemented AI-based activity monitoring and 𝘀𝘂𝘀𝗽𝗶𝗰𝗶𝗼𝘂𝘀 𝗮𝗰𝘁𝗶𝘃𝗶𝘁𝘆 𝗱𝗲𝘁𝗲𝗰𝘁𝗶𝗼𝗻 on a computer dashboard, analyzing 𝘃𝗲𝘀𝘀𝗲𝗹 𝘁𝗿𝗮𝗷𝗲𝗰𝘁𝗼𝗿𝘆 and pose for potential threats.
+
+✦ 𝗘𝗻𝘃𝗶𝗿𝗼𝗻𝗺𝗲𝗻𝘁𝗮𝗹 𝗦𝗮𝗳𝗲𝘁𝘆 𝗜𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗶𝗼𝗻:
+- Incorporated environmental safety features such as 𝗼𝗶𝗹 𝘀𝗽𝗶𝗹𝗹 𝗱𝗲𝘁𝗲𝗰𝘁𝗶𝗼𝗻 using 𝗨𝗣𝟰𝟮 𝗔𝗣𝗜, enhancing monitoring capabilities for environmental protection.
